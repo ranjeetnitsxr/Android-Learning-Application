@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android_demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu"
+            android:theme="@style/Animation.AppCompat.DropDownUp">
+            <intent-filter>
+                <action android:name="com.example.android_demo.Menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserInterfaces"
+            android:label="User  Interfaces"
+            android:theme="@style/Animation.AppCompat.Dialog" />
+        <activity
+            android:name=".TextViewClass"
+            android:label="TextView"
+            android:theme="@style/Widget.AppCompat.AutoCompleteTextView" />
+        <activity
+            android:name=".ButtonClass"
+            android:label="Button"
+            android:theme="@style/Widget.AppCompat.Button" />
+        <activity
+            android:name=".EditTextClass"
+            android:label="EditText"
+            android:theme="@style/Base.Widget.AppCompat.EditText" />
+        <activity
+            android:name=".ToggleButtonClass"
+            android:label="Toggle Button"
+            android:theme="@style/Widget.AppCompat.DrawerArrowToggle" />
+        <activity android:name=".ScrollViewClass"
+            android:label="Scroll View"
+            android:theme="@style/Animation.AppCompat.DropDownUp"></activity>
+    </application>
+
+</manifest>

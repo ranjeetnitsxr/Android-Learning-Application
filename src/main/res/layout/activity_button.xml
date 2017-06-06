@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callbymethod"
+        android:text="button(method)"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        android:id="@+id/Button_bt1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button(Listener)"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        android:id="@+id/Button_bt2"/>
+</LinearLayout>

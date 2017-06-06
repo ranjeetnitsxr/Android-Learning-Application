@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ANDROID DEMO</string>
+    <string name="tv1">hello friends,its ranjeet call</string>
+    <string name="textview_tv1">textview as a text</string>
+    <string name="textview_tv2">textview as a password</string>
+    <string name="textview_tv3">https://clicable_textview</string>
+</resources>
