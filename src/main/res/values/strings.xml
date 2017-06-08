@@ -4,4 +4,7 @@
     <string name="textview_tv1">textview as a text</string>
     <string name="textview_tv2">textview as a password</string>
     <string name="textview_tv3">https://clicable_textview</string>
+    <string name="scrollview_tv1">There is a two types of scrollview is shown here.
+        horizontal scrolllview is given above in which imageview is taken as item and
+        vertical scrollview is represented in the form of button which is given below this text.</string>
 </resources>
