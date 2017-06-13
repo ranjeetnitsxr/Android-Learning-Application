@@ -3,6 +3,7 @@ package com.example.android_demo;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.view.View;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -11,7 +12,8 @@ import android.widget.ScrollView;
  * Created by ranjeet on 7/6/17.
  */
 
-public class ScrollViewClass extends Activity {
+public class ScrollViewClass extends Activity
+{
     HorizontalScrollView horizontalScrollView;
     ScrollView scrollView;
     LinearLayout linearLayout1,linearLayout2;

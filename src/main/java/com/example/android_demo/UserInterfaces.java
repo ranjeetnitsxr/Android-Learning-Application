@@ -14,7 +14,7 @@ import android.widget.ListView;
  */
 
 public class UserInterfaces extends ListActivity{
-String components[]={"TextViewClass","ButtonClass","EditTextClass","listview","radioButton","CheckButton","ToggleButtonClass","ScrollViewClass","Spinner",
+String components[]={"TextViewClass","ButtonClass","EditTextClass","listview","RadiogroupClass","CheckButton","ToggleButtonClass","Clock","ScrollViewClass","Spinner",
         "OptionMenuTest","ContextMenu","PopUpItem","DialogBox","ListDialog","DateandTimePicker","LayoutInflator"};
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

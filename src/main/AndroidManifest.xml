@@ -46,8 +46,18 @@
             android:label="Toggle Button"
             android:theme="@style/Widget.AppCompat.DrawerArrowToggle" />
         <activity android:name=".ScrollViewClass"
-            android:label="Scroll View"
-            android:theme="@style/Animation.AppCompat.DropDownUp"></activity>
+            android:label="Scroll View"></activity>
+        <activity android:name=".Clock"
+            android:label="clock"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".RadiogroupClass"
+            android:label="Radio Group"
+            android:theme="@style/Base.Widget.AppCompat.CompoundButton.RadioButton">
+        </activity>
+        <activity android:name=".ImplementClasses"
+            android:label="Implement classes"
+            android:theme="@style/AppTheme"
+            />
     </application>
 
 </manifest>
