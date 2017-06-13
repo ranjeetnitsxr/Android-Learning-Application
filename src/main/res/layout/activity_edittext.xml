@@ -22,10 +22,7 @@
         android:layout_height="wrap_content"
         android:text="increment"
         android:textSize="20dp"
-        android:layout_weight="10"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:padding="5dp"
         android:id="@+id/Edittext_bt1"
         />
     <Button
@@ -33,9 +30,13 @@
         android:layout_height="wrap_content"
         android:text="decrement"
         android:textSize="20dp"
-        android:layout_weight="10"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
         android:padding="5dp"
         android:id="@+id/Edittext_bt2"/>
+    <Button
+        android:id="@+id/edittext_bt_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">"
+        android:layout_gravity="end"/>
 </LinearLayout>

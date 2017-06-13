@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
 
-</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="textview"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/onclicklisenerclass_tv"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:id="@+id/onclicklisenerclass_bt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your name"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:id="@+id/onclicklisenerclass_et"/>
+    </LinearLayout>

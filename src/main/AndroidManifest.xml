@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android_demo">
 
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,13 +15,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".splash">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        <activity android:name=".splash"
+                  android:theme="@style/Animation.AppCompat.DropDownUp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
         </activity>
+
         <activity
             android:name=".menu"
             android:theme="@style/Animation.AppCompat.DropDownUp">
@@ -45,19 +54,53 @@
             android:name=".ToggleButtonClass"
             android:label="Toggle Button"
             android:theme="@style/Widget.AppCompat.DrawerArrowToggle" />
-        <activity android:name=".ScrollViewClass"
-            android:label="Scroll View"></activity>
-        <activity android:name=".Clock"
+        <activity
+            android:name=".ScrollViewClass"
+            android:label="Scroll View" />
+        <activity
+            android:name=".Clock"
             android:label="clock"
-            android:theme="@style/AppTheme"/>
-        <activity android:name=".RadiogroupClass"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RadiogroupClass"
             android:label="Radio Group"
-            android:theme="@style/Base.Widget.AppCompat.CompoundButton.RadioButton">
-        </activity>
-        <activity android:name=".ImplementClasses"
+            android:theme="@style/Base.Widget.AppCompat.CompoundButton.RadioButton"></activity>
+        <activity
+            android:name=".ImplementClasses"
             android:label="Implement classes"
-            android:theme="@style/AppTheme"
-            />
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".OnClickLisenerClass"
+            android:label="On click listener"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RatingBarClass"
+            android:label="Rating bar"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CalenderViewClass"
+            android:label="Calender view"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EmailClass"
+            android:label="E-mail"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CameraClass"
+            android:label="camera"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".wallpaper"
+            android:label="set wallpaper"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".UseOfBundle"
+            android:label="Log IN"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".BundleDescription"
+            android:label="Bundle Description"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

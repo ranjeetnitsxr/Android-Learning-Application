@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <TextView
+        android:id="@+id/radiogroup_tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="horizontal radiogroup"
@@ -20,26 +21,32 @@
             android:layout_height="wrap_content"
             android:text="select gender:"
             android:textSize="20dp"
+            android:id="@+id/radiogroup_tv2"
             android:layout_margin="5dp"/>
      <RadioGroup
+         android:id="@+id/radiogroup_rg1"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:orientation="horizontal">
          <RadioButton
+             android:id="@+id/radiogroup_male"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:text="male"/>
          <RadioButton
+             android:id="@+id/radiogroup_female"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:text="female"/>
          <RadioButton
+             android:id="@+id/radiogroup_transgender"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:text="transgender"/>
      </RadioGroup>
     </LinearLayout>
     <TextView
+        android:id="@+id/radiogroup_tv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="vertical radiogroup"
@@ -47,32 +54,44 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"/>
     <TextView
+        android:id="@+id/radiogroup_tv4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="select the difficulty level:"
         android:textSize="20dp"/>
     <RadioGroup
+        android:id="@+id/radiogroup_rg2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <RadioButton
+            android:id="@+id/radiogroup_easy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy"/>
         <RadioButton
+            android:id="@+id/radiogroup_medium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Medium"/>
         <RadioButton
+            android:id="@+id/radiogroup_hard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hard"/>
         <RadioButton
+            android:id="@+id/radiogroup_advance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Advance"/>
         <RadioButton
+            android:id="@+id/radiogroup_pro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Advance Pro"/>
     </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:id="@+id/radiogroup_tv"/>
     </LinearLayout>

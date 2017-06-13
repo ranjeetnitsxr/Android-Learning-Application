@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/wallpaper_iv"
+        android:layout_width="match_parent"
+        android:src="@color/colorPrimary"
+        android:layout_height="400dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set wallpaer 1"
+        android:onClick="setWallpaper"
+        android:id="@+id/wallpaper_bt1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set wallpaer 2"
+        android:id="@+id/wallpaper_bt2"/>
 </LinearLayout>
