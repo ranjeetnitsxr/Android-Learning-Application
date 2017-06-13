@@ -13,7 +13,6 @@ import java.io.IOException;
 
 public class wallpaper extends Activity
 {
-    Bitmap bitmap;
     Button button1,button2;
     ImageView imageView;
     WallpaperManager wallpaperManager;
